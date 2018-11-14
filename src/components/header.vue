@@ -1,6 +1,6 @@
 <template>
 <div class="header">
-    <div class="fl"><i class="iconfont icon-zoushi zsm"></i><span class="menufont">NBA直播比分助手</span></div>
+    <div class="fl"><i class="iconfont icon-zoushi zsm"></i><span class="menufont">红单大师</span></div>
     <span class="menur" @click="ismenushow"><i class="iconfont icon-menu zsm mlin"></i></span>
     <div class="menuleft" style="position:restive" v-if="ismenu">
         <div class="uid">
@@ -78,6 +78,7 @@ export default {
 }
 .menufont{
     float:left;
+    font-size: 0.16rem;
 }
 .menur{
     float:left;
